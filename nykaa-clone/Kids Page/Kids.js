@@ -1,34 +1,34 @@
 let KidsProductData=[
-    {brand:"Gap",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Gap",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Gap",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Gap",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Gap",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Baby Moo",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Baby Moo",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Baby Moo",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Baby Moo",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Baby Moo",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Kanitroot",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Kanitroot",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Kanitroot",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Kanitroot",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Kanitroot",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Bee Bay",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Bee Bay",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Bee Bay",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Bee Bay",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Bee Bay",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Pepe Jeans",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Pepe Jeans",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Pepe Jeans",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Pepe Jeans",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Pepe Jeans",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Puma",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Puma",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Puma",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Puma",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
-    {brand:"Puma",img:"",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]}
+    {brand:"Gap",img:"./images/img1.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Gap",img:"./images/img2.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Gap",img:"./images/img3.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Gap",img:"./images/img4.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Gap",img:"./images/img5.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Baby Moo",img:"./images/img1.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Baby Moo",img:"./images/img2.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Baby Moo",img:"./images/img3.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Baby Moo",img:"./images/img4.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Baby Moo",img:"./images/img5.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Kanitroot",img:"./images/img1.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Kanitroot",img:"./images/img2.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Kanitroot",img:"./images/img3.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Kanitroot",img:"./images/img4.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Kanitroot",img:"./images/img5.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Bee Bay",img:"./images/img1.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Bee Bay",img:"./images/img2.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Bee Bay",img:"./images/img3.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Bee Bay",img:"./images/img4.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Bee Bay",img:"./images/img5.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Pepe Jeans",img:"./images/img1.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Pepe Jeans",img:"./images/img2.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Pepe Jeans",img:"./images/img3.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Pepe Jeans",img:"./images/img4.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Pepe Jeans",img:"./images/img5.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Puma",img:"./images/img1.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Puma",img:"./images/img2.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Puma",img:"./images/img3.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Puma",img:"./images/img4.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]},
+    {brand:"Puma",img:"./images/img5.jpg",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",size:["L"],Extra:[]}
 ]
 
 let products=document.getElementById("products");
@@ -40,7 +40,7 @@ function ShowProducts(data){
 
         let img=document.createElement("div");
         img.setAttribute("class", "card-img");
-        img.style.backgroundImage=`url(https://source.unsplash.com/random)`
+        img.style.backgroundImage=`url(${element.img})`
         card.appendChild(img);
 
         let text=document.createElement("div");
