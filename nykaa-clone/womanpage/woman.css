@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.body{
+    width: 99vw;
+    margin: auto;
+}
+.slide{
+    width: 100%;
+    height: 35vh;
+    border: 1px solid green;
+}
+.cont{
+    width: 99%;
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+}
+.filters{
+    width: 20%;
+    height: 00px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.products{
+    width: 80%;
+    border: 1px solid black;
+}
+.filterbox{
+    border: 0.5px solid rgb(87, 86, 86);
+    width: 100%;
+    margin-top: 10px;
+}
+.filterbox div{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0px;
+}
+.filterbox div input{
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   margin-left: 10%;
+}
+
