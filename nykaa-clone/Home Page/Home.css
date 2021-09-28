@@ -31,9 +31,6 @@
     overflow-y: scroll;
     margin-top: 28px;
 }
-#catagory div{
-    border: 1px solid red;
-}
 #Brand{
     height:300px;
     overflow-y: scroll;
@@ -72,7 +69,10 @@
 }
 .card{
     height: 400px;
-    border: 1px solid red;
+}
+.card:hover{
+    box-shadow: 2px 2px 4px 4px lightgray;
+    transition: box-shadow 1s;
 }
 .card-img{
     width: 100%;
