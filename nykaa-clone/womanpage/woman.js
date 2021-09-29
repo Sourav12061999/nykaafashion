@@ -192,10 +192,12 @@ function ShowProducts(data) {
     let h4 = document.createElement("h4");
     h4.textContent = element.brand.toUpperCase();
     text.appendChild(h4);
+
     let p = document.createElement("p");
     p.textContent = element.name;
     p.setAttribute("class", "card-text-detail")
     text.appendChild(p);
+    
     let p2 = document.createElement("p");
     p2.textContent = "$" + element.price;
     p2.setAttribute("class", "card-text-price")
