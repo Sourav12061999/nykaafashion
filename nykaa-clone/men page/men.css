@@ -65,7 +65,9 @@
     overflow-y: scroll;
 }
 .filterbox h2{
- font-weight: 400;
+    font-size:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
 }
 #priceslider{
     border: 1px solid lightgray;
@@ -73,6 +75,7 @@
     margin-top: 10px;
     text-align: center;
     height: 200px;
+    background-color: aquamarine;
 }
 #priceslider input{
     width: 90%;
@@ -105,6 +108,10 @@
     width: 100%;
     padding: 5px 0px;
 }
+.filterbox{
+    background-color: aquamarine;
+
+}
 .filterbox div{
     width: 80%;
     margin: auto;
@@ -119,8 +126,10 @@
     position: relative;
     left: 70%;
 }
+
 .filterbox div label{
     font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .filterbox div input{
    width: 22px;
@@ -142,10 +151,11 @@
     background-size: cover;
 }
 .card-text{
-    width: 90%;
+    width: 100%;
     margin: auto;
     height: 30%;
     padding: 4px;
+    background-color: rgb(135, 216, 219);
 }
 .card-text h4{
     font-weight: 550;
