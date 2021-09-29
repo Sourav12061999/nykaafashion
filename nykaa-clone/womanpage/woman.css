@@ -27,6 +27,25 @@
     border-bottom: 1px solid black;
     margin-bottom: 10px;
 }
+#slide-heading h4{
+    margin: 0px 30px; 
+}
+#slide-heading p{
+    margin: 0px 30px;
+}
+#slide-heading-div3:hover{
+    background-color:rgb(236, 228, 228);
+    color:black;
+    box-shadow: 2px 2px 7px 7px rgb(218, 218, 218);
+    cursor: pointer;
+    
+}
+
+#slide-heading-div4{
+    width: 10%;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
 .cont{
     width: 100%;
     display: flex;
