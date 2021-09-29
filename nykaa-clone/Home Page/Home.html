@@ -5,46 +5,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Essentials online</title>
+    <title> Home appliances online</title>
     <link rel="stylesheet" href="./Home.css">
+    <style>
+        #products{
+        margin:0% auto;
+        width: 73%;
+        display: grid;
+        grid-template-columns: 33.9% 33.9% 33.9% ;
+        gap:30px 7px;
+    }
+   
+    </style>
 </head>
+
 <body>
+    <div id ="container">
+        <div>
+           <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/s/w/swayam_8907507723109_1_e6aa5278.jpg?rnd=20200526195200"/>
+           <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/c/h/chumbak_8907605103506-1_a8a9f656.jpg?rnd=20200526195200"/>
+        </div>
+        <div>
+                <h2>Home</h2>
+                <p>new furniture, standouts styles,<P>current favorite & more</p>
+        </div>
+        <div>
+            <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/a/a/aa1052_1_6c3144db.jpg?rnd=20200526195200"/>
+            <img src = "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/l/i/live_151526_1_30b11dcb.jpg?rnd=20200526195200"/>
+        </div>
+    </div>
     <div class="body">
-        <div class="slide"></div>
+            <div id="slide-heading">
+                <div id="slide-heading-div1"></div>
+                <h2>Home</h2>
+                <div id="slide-heading-div2"></div>
+                <div id="slide-heading-div3">
+                    <h4>Sort by</h4>
+                    <p>Popularity</p>
+                </div>
+                <div id="slide-heading-div4"></div>
+            </div>
         <div class="cont">
             <div class="filters">
-                <h2>Filters</h2>
-                <div class="filterbox" id="catagory">
-                    <h2>Catagory</h2>
-                    <div><label>Bedding</label><input type="checkbox" id="catagory-bedding"></div>
-                    <div><label>Kitchen & Dining</label><input type="checkbox" id="catagory-kitchen"></div>
-                    <div><label>Decor</label><input type="checkbox" id="catagory-decor"></div>
-                    <div><label>Storage</label><input type="checkbox" id="catagory-storage"></div>
-                    <div><label>Bath</label><input type="checkbox" id="catagory-bath"></div>
+                <h2 style="font-weight: 600;">Filters</h2>
+                <div class="filterbox" id="gender">
+                    <h2>category</h2>
+                    <div><div><label>Bedding</label></div><div><input type="checkbox" id="gender-boy"></div></div>
+                    <div><div><label>Dining & Kitchen</label></div><div><input type="checkbox" id="gender-girl"></div></div>
+                    <div><div><label>Decor</label></div><div><input type="checkbox" id="gender-male"></div></div>
+                    <div><div><label>Storage</label></div><div><input type="checkbox" id="gender-female"></div></div>
                 </div>
                 <div class="filterbox" id="Brand">
-                    <h1>Brands</h1>
-                    <div><label>Swayam</label><input type="checkbox" id="brand-gap"></div>
-                    <div><label>SPACES</label><input type="checkbox" id="brand-baby-moo"></div>
-                    <div><label>Chumbak</label><input type="checkbox" id="brand-kanitroot"></div>
-                    <div><label>Maspar</label><input type="checkbox" id="brand-beebay"></div>
-                    <div><label>Freelance</label><input type="checkbox" id="brand-pepe-jeans"></div>
-                    <div><label>Dreams</label><input type="checkbox" id="brand-puma"></div>
+                    <h2>Brands</h2>
+                    <div><div><label>Space</label></div><div><input type="checkbox" id="brand-gap"></div></div>
+                    <div><div><label>Swayam</label></div><div><input type="checkbox" id="brand-baby-moo"></div></div>
+                    <div><div><label>Chumbak</label></div><div><input type="checkbox" id="brand-kanitroot"></div></div>
+                    <div><div><label>Lock and lock</label></div><div><input type="checkbox" id="brand-beebay"></div></div>
+                    <div><div><label>Maspar</label></div><div><input type="checkbox" id="brand-pepe-jeans"></div></div>
+                    <div><div><label>Freelance</label></div><div><input type="checkbox" id="brand-puma"></div></div>
                 </div>
-                <div class="filterbox" id="Size">
-                    <h1>Size</h1>
-                    <div><label>XXS</label><input type="checkbox" id="brand-xxs"></div>
-                    <div><label>XS</label><input type="checkbox" id="brand-baby-xs"></div>
-                    <div><label>S</label><input type="checkbox" id="brand-s"></div>
-                    <div><label>M</label><input type="checkbox" id="brand-m"></div>
-                    <div><label>L</label><input type="checkbox" id="brand-l"></div>
-                    <div><label>XL</label><input type="checkbox" id="brand-xl"></div>
+                <div id="priceslider">
+                    <h2>Prices</h2>
+                    <div>
+                     <div>From<input type="number" name="" id="slidermin"></div>
+                     <div>To<input type="number" name="" id="slidermin"></div>
+                    </div>
+                    <button>Apply</button>
                 </div>
             </div>
             <div id="products"></div>
         </div>
     </div>
-    <script src="./Home.js"></script>
 </body>
 
 </html>
+<script src="Home.js"></Script>
