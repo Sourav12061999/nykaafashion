@@ -1,5 +1,4 @@
 #container{
-    border: 1px solid green;
     height:200px;
     width:90%;
     margin:auto;
@@ -99,7 +98,6 @@
     margin-top: 10px;
     text-align: center;
     height: 200px;
-    background-color: aquamarine;
 }
 #priceslider input{
     width: 90%;
@@ -132,10 +130,6 @@
 #priceslider h2 + div div input{
     width: 100%;
     padding: 5px 0px;
-}
-.filterbox{
-    background-color: aquamarine;
-
 }
 .filterbox div{
     width: 80%;
@@ -184,7 +178,6 @@
     margin: auto;
     height: 30%;
     padding: 4px;
-    background-color: rgb(135, 216, 219);
 }
 .card-text h4{
     font-weight: 550;
