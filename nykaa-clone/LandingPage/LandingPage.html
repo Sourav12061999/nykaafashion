@@ -229,6 +229,10 @@
         cursor: pointer;
         margin-top: 5%;
     } 
+    #navbar22grid > div:nth-child(2) > a{
+        text-decoration: none;
+        color:inherit;
+    }
     #navbar22grid > div:nth-child(1):hover{
         background-color: #E0E0E0;
     }
@@ -321,7 +325,7 @@
         font-size: 12px;
         color:#9E9E9E;
     }
-    #second{
+    #myButton{
         width:80%;
         padding-bottom: 7%;
         border-bottom: 1px solid #EEEEEE;
@@ -423,11 +427,169 @@
             padding: 2%;
             border-radius: 4px;
         }
+
+
+
+        .modal {
+            display: none; 
+            position: fixed; 
+            z-index: 1; 
+            padding-top: 100px; 
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%; 
+            overflow: auto; 
+            background-color: rgb(0,0,0); 
+            background-color: rgba(0,0,0,0.4); 
+        }
+
+        .modal-content {
+            position: relative;
+            background-color: #fefefe;
+            margin: auto;
+            padding: 0;
+            border: 1px solid #888;
+            width: 50%;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+            -webkit-animation-name: animatetop;
+            -webkit-animation-duration: 0.4s;
+            animation-name: animatetop;
+            animation-duration: 0.4s
+        }
+
+
+        @-webkit-keyframes animatetop {
+            from {top:-300px; opacity:0} 
+            to {top:0; opacity:1}
+        }
+
+        @keyframes animatetop {
+        from {top:-300px; opacity:0}
+        to {top:0; opacity:1}
+        }
+        #firstline{
+            display: grid;
+            grid-template-columns: 50% 18%;
+            grid-gap:33%;
+        }
+        #lefttop{
+            color: black;
+            font-size: large;
+            padding-left: 10%;
+        }
+        #lefttop > div{
+            cursor: pointer;
+            padding-top: 12%;
+            width:8%;
+        }
+        h2{
+            padding-top: 6%;
+        }
+        #secondline{
+            display:grid;
+            grid-template-columns: 44% 6% 44%;
+        }
+        #leftbottom{
+            padding-left: 10%;
+            padding-bottom: 18%;
+        }
+        #leftbottom > div:nth-child(1){
+            font-size: 16px;
+        }
+        #leftbottom > button{
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 9%;
+            padding:7%;
+        }
+        #leftbottom > button:hover{
+            background-color: #424242;
+        }
+        #leftbottom > div:nth-child(3){
+            padding-top: 7%;
+            font-size: 12px;
+            width:75%;
+        }
+        u{
+            cursor: pointer;
+        }
+        #midbottom{
+            margin-left: 3%;
+        }
+        #midbottom > div:nth-child(1){
+            border-left: 2px solid #BDBDBD;
+            margin-left: 3.5%;
+            height:34%;
+        }
+        #midbottom > div:nth-child(2){
+           margin-top: 1%;
+           margin-bottom: 1%;
+        }
+        #midbottom > div:nth-child(3){
+            border-left: 2px solid #BDBDBD;
+            margin-left: 3.5%;
+            height:34%;
+        }
+        #rightbottom{
+            padding-left: 10%;
+            padding-bottom: 18%;
+        }
+        #rightbottom > div:nth-child(1){
+            font-size: 16px;
+        }
+        #rightbottom > button{
+            background-color: white;
+            color: black;
+            border:1px solid #EEEEEE;
+            cursor: pointer;
+            margin-top: 9%;
+            padding:7%;
+        }
+        #rightbottom > button:nth-child(3){
+            width:81%;
+        }
+        #rightbottom > button:hover{
+            background-color: #E0E0E0;
+        }
     </style>
 </head>
 <body>
-    
+<div id="myModal" class="modal">
 
+    <div class="modal-content">
+        <div id="firstline">
+        <div id="lefttop">
+            <div class="close">✕</div>
+            <h2>Login</h2>
+        </div>
+        <div id="righttop">
+            <img src="https://images-static.nykaa.com/nykdesignstudio-images/pub/media/mobileVerification_background_image.png"/>
+        </div>
+        </div>
+        <div id="secondline">
+            <div id="leftbottom">
+                <div>If you are new to Nykaa Fashion, kindly signup to proceed</div>
+                <button>Signup using mobile number   →</button>
+                <div>By signing in, I agree to <u>Terms & Conditions</u>, and <u>Privacy Policy</u></div>
+            </div>
+            <div id="midbottom">
+                <div></div>
+                <div>Or</div>
+                <div></div>
+            </div>
+            <div id="rightbottom">
+                <div>If you are already registered with us, then choose from below:</div>
+                <button>Login using mobile number   →</button>
+                <button>Login using email   →</button>
+            </div>
+        </div>
+    </div>
+  
+</div>
+   
 
 
     <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
@@ -464,12 +626,12 @@
         </div>
         <div id="navbar22">
             <div id="navbar22grid">
-                <div onclick="window.location.href= '../LandingPage.html'">All Brands</div>
-                <div onclick="window.location.href= 'womanpage/woman.html'">Women</div>
-                <div onclick="window.location.href= 'menpage/men.html'">Men</div>
-                <div onclick="window.location.href= 'Kids Page/Kids.html'">Kids</div>
-                <div onclick="window.location.href= 'Home Page/Home.html'">Home</div>
-                <div onclick="window.location.href= 'Tech page/Tech.html'">Tech</div>
+                <div onclick="window.location.href= '../LandingPage/LandingPage.html'">All Brands</div>
+                <div onclick="window.location.href= '../womanpage/woman.html'">Women</div>
+                <div onclick="window.location.href= '../menpage/men.html'">Men</div>
+                <div onclick="window.location.href= '../Kids Page/Kids.html'">Kids</div>
+                <div onclick="window.location.href= '../Home Page/Home.html'">Home</div>
+                <div onclick="window.location.href= '../Tech page/Tech.html'">Tech</div>
                 <div>More</div>
             </div>  
         </div>
@@ -484,7 +646,7 @@
                     <div onclick="myFunction()" class="dropbtn accounttext">Account</div>
                     <div id="myDropdown" class="dropdown-content">
                         <div id="first">Becoming a Nykaa Fashion<br>member comes with easy<br>order tracking, rewards, offers<br>and more.</div>
-                        <div id="second">Login/Signup Now ></div>
+                        <div id="myButton">Login/Signup Now ></div>
                         <div id="third">Orders</div>
                         <div id="fourth">Payment Methods</div>
                     </div>    

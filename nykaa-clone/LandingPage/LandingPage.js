@@ -1,18 +1,7 @@
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
-      }
-    }
-  }
+ 
 
   function openNav() {
   document.getElementById("mySidebar").style.width = "370px";
@@ -21,6 +10,7 @@ function myFunction() {
   document.getElementById("mySidebar").style.width = "0";
   }
 
+  
   
   var mybutton = document.getElementById("myBtn");
   window.onscroll = function() 
@@ -42,4 +32,27 @@ function myFunction() {
   }
 
 
+<<<<<<< HEAD:nykaa-clone/LandingPage/LandingPage.js
+ /*Modal Login box*/
+  var modal = document.getElementById("myModal");
+var btn = document.getElementById("myButton");
+
+var span = document.getElementsByClassName("close")[0];
+ 
+btn.onclick = function() {
+  modal.style.display = "block";
+  document.getElementById("myDropdown").classList.remove("show");
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+=======
   
+>>>>>>> 25c6b308a316ac439fde028841ef884790345779:nykaa-clone/LandingPage.js
