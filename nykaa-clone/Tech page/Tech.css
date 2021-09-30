@@ -230,7 +230,6 @@ input:focus{
     text-align: center;
     height: 200px;
     
-    background-color: aquamarine;
     
     
 
@@ -266,10 +265,7 @@ input:focus{
     width: 100%;
     padding: 5px 0px;
 }
-.filterbox{
-    background-color: aquamarine;
 
-}
 .filterbox div{
     width: 80%;
     margin: auto;
@@ -313,7 +309,7 @@ input:focus{
     margin: auto;
     height: 30%;
     padding: 4px;
-    background-color: rgb(135, 216, 219);
+   
     
     
 }
