@@ -242,3 +242,5 @@ function ProductPageLoad(product){
 if(localStorage.getItem("nykaa-women-page-data")==null){
   localStorage.setItem("nykaa-women-page-data",JSON.stringify(data));
 }
+
+
