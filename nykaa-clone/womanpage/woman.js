@@ -204,6 +204,7 @@ if(localStorage.getItem("nykaa-product")==null){
   localStorage.setItem("nykaa-product",JSON.stringify({}));
 }
 let parent = document.getElementById("products");
+
 function ShowProducts(data) {
   data.forEach(element => {
     let card = document.createElement("div");
