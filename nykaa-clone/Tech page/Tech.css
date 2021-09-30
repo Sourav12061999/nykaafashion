@@ -149,6 +149,30 @@ input:focus{
     color: #001325;
     padding: 3%;
 }
+#container{
+    border: 1px solid green;
+    height:200px;
+    width:90%;
+    margin:auto;
+    margin-top: 20px;
+    background-color: rgb(197, 192, 192);
+    display: grid;
+    grid-template-columns:30% 45% 30%;
+
+}
+#container>div >img{
+    width:45%;
+    height: 78%;
+}
+#container>div:nth-child(2){
+    margin-top: 50px;
+    text-align: center;
+    width:100%;
+}
+
+#container>div:nth-child(3){
+    width:100%
+}
 
 
 *{
@@ -164,7 +188,7 @@ input:focus{
     width: 100%;
     height: 10%;
     display: flex;
-    margin-top: 10%;
+    margin-top: 2%;
 }
 #slide-heading h2{
     margin: 0px 30px;
