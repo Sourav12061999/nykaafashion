@@ -130,3 +130,29 @@ input{
 input:focus{
     outline: none;
 }
+.prices{
+    padding: 10px;
+}
+.prices > div{
+  margin: 20px 0px;
+  display: flex;
+  width: 90%;
+}
+.prices >div div{
+    color: gray;
+    width: 45%;
+}
+.prices >div:nth-child(7) div{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.prices span{
+    width: 95%;
+    display: block;
+    height: 1px;
+    border-bottom: 1px solid rgb(192, 191, 191);
+}
+.prices >div div:nth-child(2){
+    text-align: right;
+}

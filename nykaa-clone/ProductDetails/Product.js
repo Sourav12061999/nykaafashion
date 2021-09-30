@@ -1,6 +1,5 @@
 let productImg=document.getElementById("main-product-img")
 let data=JSON.parse(localStorage.getItem("nykaa-product"));//Here I am getting the data from local storage
-
 productImg.style.background=`url(${data.img})`;//Making a div with background image of product image
 productImg.style.backgroundSize="cover";
 
