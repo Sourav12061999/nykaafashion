@@ -63,3 +63,18 @@ function ShowProducts(data){
     products.style.height=`${count/3*450}px`
 }
 ShowProducts(TechProductData);
+function woman(){
+    window.location.href="womanpage/woman.html";
+  }
+  function men(){
+    window.location.href="menpage/men.html";
+  }
+  function kids(){
+    window.location.href="Kidspage/Kids.html";
+  }
+  function home(){
+    window.location.href="Homepage/Home.html";
+  }
+  function tech(){
+    window.location.href="Tech page/Tech.html";
+  }

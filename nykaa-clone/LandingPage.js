@@ -14,7 +14,6 @@ function myFunction() {
     }
   }
 
-
   function openNav() {
   document.getElementById("mySidebar").style.width = "370px";
   }
@@ -41,3 +40,6 @@ function myFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
   }
+
+
+  
