@@ -32,7 +32,6 @@ function myFunction() {
   }
 
 
-<<<<<<< HEAD:nykaa-clone/LandingPage/LandingPage.js
  /*Modal Login box*/
   var modal = document.getElementById("myModal");
 var btn = document.getElementById("myButton");
@@ -53,6 +52,3 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-=======
-  
->>>>>>> 25c6b308a316ac439fde028841ef884790345779:nykaa-clone/LandingPage.js
