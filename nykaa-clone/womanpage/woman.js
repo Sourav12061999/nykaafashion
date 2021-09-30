@@ -204,6 +204,7 @@ if(localStorage.getItem("nykaa-product")==null){
   localStorage.setItem("nykaa-product",JSON.stringify({}));
 }
 let parent = document.getElementById("products");
+
 function ShowProducts(data) {
   data.forEach(element => {
     let card = document.createElement("div");
@@ -242,3 +243,5 @@ function ProductPageLoad(product){
 if(localStorage.getItem("nykaa-women-page-data")==null){
   localStorage.setItem("nykaa-women-page-data",JSON.stringify(data));
 }
+
+

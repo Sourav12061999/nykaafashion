@@ -151,6 +151,9 @@ input:focus{
 }
 
 
+
+
+
 #container{
     border: 1px solid green;
     height:200px;
@@ -164,8 +167,7 @@ input:focus{
 }
 #container>div >img{
     width:45%;
-    height: 80%;
-    margin-left: 20%;
+    height: 58%;
 }
 #container>div:nth-child(2){
     margin-top: 50px;
@@ -174,9 +176,9 @@ input:focus{
 }
 
 #container>div:nth-child(3){
-    width:100%;
-    margin-right: 35%;
+    width:100%
 }
+
 *{
     margin: 0;
     padding: 0%;
@@ -244,7 +246,9 @@ input:focus{
     overflow-y: scroll;
 }
 .filterbox h2{
- font-weight: 400;
+    font-size:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
 }
 #priceslider{
     border: 1px solid lightgray;
@@ -252,8 +256,6 @@ input:focus{
     margin-top: 10px;
     text-align: center;
     height: 200px;
-       
-    
     
 }
 #priceslider input{
@@ -295,10 +297,6 @@ input:focus{
     text-align: left;
     display: flex;
 }
-.filterbox h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
-}
 .filterbox div div{
     width: 50%;
 }
@@ -306,8 +304,9 @@ input:focus{
     position: relative;
     left: 70%;
 }
+
 .filterbox div label{
-    font-size: 15px;
+    font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .filterbox div input{
@@ -349,3 +348,103 @@ input:focus{
     margin: 4px 0px;
     font-weight: 600;
 }
+#blackportion{
+    width:"100%";
+    background-color: #333;
+    color: whitesmoke;
+    font-family: inherit;
+    padding: 20px 0px;
+    padding: 10px 0px;
+}
+#black1 > div{
+    display: inline-block;
+    width:30%;
+    margin-bottom: 4%;
+}
+#black1{
+    display: inline-block;
+    margin-left:7%;
+   
+}
+#black2,#black3{
+    display: inline-block;   
+}
+#black2{
+    vertical-align: top;
+}
+#black3{
+    vertical-align: top;
+    margin-left:9.5%;
+}
+#black3 >p{
+    font-size:12px;
+}
+#search-container button {
+float: right;
+color:gray;
+padding:8px;
+background-color: #333;
+font-size: 15px;
+border: 1px solid gray;
+cursor: pointer;
+}
+
+#search-container input{
+background-color: #333;
+color:gray;
+border: 1px solid gray;
+padding:8.9px;
+}
+#grayportion{
+background-color: #f3f2f2;
+padding: 30px 0 39px 0;
+}
+#insidegray{
+display: grid;
+grid-template-columns: 10% 15% 19% 8% 12%;
+grid-gap: 6.5%;
+margin-left:7%;
+font-family: Cera,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.inside1 > div{
+padding-bottom: 4.5%;
+cursor: pointer;
+}
+.title{
+font-weight: 600;
+margin-bottom: 20px;
+text-transform: uppercase;
+}
+#empty{
+height:35px;
+}
+#logo > img{
+margin-right: 2%;
+}
+#aftergray{
+padding: 26px 0 36px 0;
+}
+#insideaftergray{
+font-family: inherit;
+color: #666;
+display: grid;
+grid-template-columns: 14% 14% 14% 14% 14% 14%;
+gap:2%;
+margin-left:7%;
+}
+.women{
+font-weight: 580;
+margin-bottom: 8px;
+text-transform: uppercase;
+}
+#lastbox{
+height: 38px;
+background: #FD7685;
+text-align: center;
+color: #FFFFFF;
+padding-top: 1rem;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+}
+
