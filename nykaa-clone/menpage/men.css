@@ -219,7 +219,7 @@ input:focus{
     color:black;
     box-shadow: 2px 2px 7px 7px rgb(218, 218, 218);
     cursor: pointer;
-    
+    margin-bottom: 10px; 
 }
 
 #slide-heading-div4{
