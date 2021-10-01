@@ -262,7 +262,7 @@ function ShowProducts(data) {
     text.appendChild(h4);
 
     let p = document.createElement("p");
-    p.textContent = element.catagory;
+    p.textContent = element.name;
     p.setAttribute("class", "card-text-detail")
     text.appendChild(p);
 

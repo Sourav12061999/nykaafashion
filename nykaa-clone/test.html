@@ -1,26 +1,473 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Women Wear online</title>
-    <link rel="stylesheet" href="./woman.css">
-    <link rel="stylesheet" href="./woman2.css">
+    <title>Document</title>
     <style>
-        #products{
-        margin:0% auto;
-        width: 73%;
-        display: grid;
-        grid-template-columns: 33.9% 33.9% 33.9% ;
-        gap:30px 7px;
+        body{
+            font-family: Cera, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            line-height: 1.42857;
+            color: rgb(51, 51, 51);
+            background-color: rgb(255, 255, 255);
+       }
+        #imgheading{
+            margin-left:7%;
+            font-size: 24px;
+            margin-bottom: 1%;
+            font-family: Helvetica;
+            margin-top:3.8%;
+        }
+        #images{
+            display:grid;
+            grid-template-columns: 13.7% 13.7% 13.7% 13.7% 13.7% 13.7%;
+            grid-gap: 1.9%;
+            margin-left:7%;
+        }
+        #images > div:hover{
+            transform: scale(1.003);
+            box-shadow:2px 2px 2px 2px lightgray;
+            cursor: pointer;
+        }
+        #images2{
+            margin-left:7%;
+            margin-top:3.5%;
+            width:87%;
+        }
+        .para1{
+            margin-left: 7%;
+            margin-top: 3.9%;
+        }
+        .para1 > h4,p{
+            font-family: Helvetica;
+        }
+        .para1 >p{
+            font-size: 14.2px;
+            
+        }
+        #blackportion{
+            width:"100%";
+            background-color: #333;
+            color: whitesmoke;
+            font-family: inherit;
+        }
+        #black1 > div{
+            display: inline-block;
+            width:30%;
+            margin-bottom: 4%;
+        }
+        #black1{
+            display: inline-block;
+            margin-left:7%;
+           
+        }
+        #black2,#black3{
+            display: inline-block;   
+        }
+        #black2{
+            vertical-align: top;
+        }
+        #black3{
+            vertical-align: top;
+            margin-left:9.5%;
+        }
+        #black3 >p{
+            font-size:12px;
+        }
+        #search-container button {
+        float: right;
+        color:gray;
+        padding:8px;
+        background-color: #333;
+        font-size: 15px;
+        border: 1px solid gray;
+        cursor: pointer;
+        }
+
+        #search-container input{
+       background-color: #333;
+       color:gray;
+       border: 1px solid gray;
+       padding:8.9px;
     }
+    #grayportion{
+        background-color: #f3f2f2;
+        padding: 30px 0 39px 0;
+    }
+    #insidegray{
+        display: grid;
+        grid-template-columns: 10% 15% 19% 8% 12%;
+        grid-gap: 6.5%;
+        margin-left:7%;
+        font-family: Cera,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+    .inside1 > div{
+        padding-bottom: 4.5%;
+        cursor: pointer;
+    }
+    .title{
+        font-weight: 600;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    #empty{
+        height:35px;
+    }
+    #logo > img{
+        margin-right: 2%;
+    }
+    #aftergray{
+        padding: 26px 0 36px 0;
+    }
+    #insideaftergray{
+        font-family: inherit;
+        color: #666;
+        display: grid;
+        grid-template-columns: 14% 14% 14% 14% 14% 14%;
+        gap:2%;
+        margin-left:7%;
+        font-size: 12px;
+    }
+    .women{
+        font-weight: 580;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+    }
+    #lastbox{
+        height: 38px;
+        background: #FD7685;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 1rem;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+    }
+    .para1 > p:nth-child(2) > a{
+        color:#fd7685;
+    }
+    .para1 > p:nth-child(3) > a{
+        color:#fd7685;
+    }
+    #navbar{
+        background-color: #001325;
+        width:100%;
+    }
+    #navbar1{   
+        display: grid;
+        grid-template-columns: 68% 15% 13%;
+        margin-left: 15%;
+        grid-gap: 4%;
+        font-size: 13px;
+        height: 32px;
+        color: #fff;
+        overflow: hidden;   
+       
+    }
+    #navbar1 > div{
+        overflow: hidden;
+    }
+    #animat{
+        padding-top: 1%;
+    }
+    #ani{
+        animation-timing-function: linear;
+        position: relative;
+        animation: mymove 16s infinite;
+        
+    }
+    @keyframes mymove {
+                from {right: -580px;}
+                to  {right: 550px;}
+    }
+    #icon,#app{
+       display: inline-block;
+       vertical-align: middle;
+       cursor: pointer;
+    }
+
+    #icon{
+        font-size: 22px;
+        margin-left: 28%;
+        margin-right: 2%;
+    }
+     #icon2,#app2{
+       display: inline-block;
+       vertical-align: middle;
+       cursor: pointer;
+    }
+    #icon2{
+        font-size: 22px;
+        margin-right: 2%;
+    }
+    #navbar2{
+        width:100%;
+    }
+    #navbar21{
+        display:inline-block;
+        width:4.5%;
+        margin-left:3%;
+    }
+    #navbar22{
+        display:inline-block;
+        width:40%;
+        margin-left:2%;
+        vertical-align: top;
+        color: black;
+    }
+    #navbar22grid{
+        display: grid;
+        grid-template-columns: 14.8% 14.3% 14.3% 14.3% 14.3% 14.3% 14.3%;
+    }
+    #navbar22grid > div{
+        text-align: center;
+        padding-top: 20%;
+        padding-bottom: 25%;
+        cursor: pointer;
+        margin-top: 5%;
+    } 
+    #navbar22grid > div:nth-child(1):hover{
+        background-color: #E0E0E0;
+    }
+    #navbar22grid > div:nth-child(2):hover{
+        border-bottom: 2px solid #E91E63;
+        color: #F06292;
+    }
+    #navbar22grid > div:nth-child(3):hover{
+        border-bottom: 2px solid #E91E63;
+        color: #F06292;
+    }
+    #navbar22grid > div:nth-child(4):hover{
+        border-bottom: 2px solid #E91E63;
+        color: #F06292;
+    }
+    #navbar22grid > div:nth-child(5):hover{
+        border-bottom: 2px solid #E91E63;
+        color: #F06292;
+    }
+    #navbar22grid > div:nth-child(6):hover{
+        border-bottom: 2px solid #E91E63;
+        color: #F06292;
+    }
+    #navbar22grid > div:nth-child(7):hover{
+        border-bottom: 2px solid #E91E63;
+        color: #F06292;  
+    }
+    #navbar23{
+        display: inline-block;
+        width:48%;
+        margin-left: 1.5%;
+        vertical-align: top;
+        margin-top: 0.8%;
+    }
+    #navbar23grid{
+        display:grid;
+        grid-template-columns: 48% 17% 17% 17%;
+    }
+    #searchbox >img{
+        width:20%;
+        display: inline-block;
+    }
+    #searchbox > input:hover{
+        border-bottom: 2px solid #E91E63;
+    }
+    #searchbox > input{
+        width:70%;
+        padding: 3.3%;
+        margin-left: -1.6%;
+        display: inline-block;
+        vertical-align: top;
+        border:#F5F5F5;
+        background-color: #F5F5F5;
+    }
+    input:focus{
+        outline: none;
+    }
+    .account{
+        text-align: center;
+    }
+    .account >div:nth-child(1){
+        width:16%;
+        font-size: 24px;
+        margin-top: 5%;
+        display: inline-block;
+    }
+    .account >img{
+        width:22%;
+        margin-top: 7.5%;
+        display: inline-block;
+    }
+    .accounttext{
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 8%;
+        color: #001325;
+        padding: 3%;
+        cursor: pointer;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        width: 210px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        top:16%;
+        right:18%;
+        z-index: 1;
+    }
+    .show {display: block;}
+    #first{
+        text-align: left;
+        margin-left: 8%;
+        margin-top:12%;
+        font-size: 12px;
+        color:#9E9E9E;
+    }
+    #myButton{
+        width:80%;
+        padding-bottom: 7%;
+        border-bottom: 1px solid #EEEEEE;
+        text-align: left;
+        margin-left: 8%;
+        margin-top:5%;
+        font-size: 15px;
+        color:#EC407A;
+        cursor: pointer;
+    }
+    #third{
+        width:80%;
+        padding-bottom: 7%;
+        border-bottom: 1px solid #EEEEEE;
+        text-align: left;
+        margin-left: 8%;
+        margin-top:5%;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    #fourth{
+        width:80%;
+        padding-bottom: 15%;
+        text-align: left;
+        margin-left: 8%;
+        margin-top:5%;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .sidebar{
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #F5F5F5;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        }
+    .sidebar >div{
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 600;
+        color: black;
+        display: block;
+        transition: 0.3s;
+        }
+    .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        font-size: 36px;
+        text-align: left;
+        cursor: pointer;
+        }
+        .sidebar  > img{
+            width:80%;
+            margin-left: 10%;
+            margin-top:7%;
+        }
+        .sidebar  > div:nth-child(4){
+            text-align: center;
+            font-weight: lighter;
+        }
+        .sidebar > div:nth-child(5){
+            text-align: center;
+            font-weight: lighter;
+            margin-top: 1%;
+            font-size: 16px;
+            color:#616161;
+        }
+        .sidebarbutton{
+            width:83%;
+            color: white;
+            background-color: black;
+            margin-left: 12%;
+            margin-top: 2%;
+            padding:3%;
+            border-radius: 5px;
+            outline: none;
+            cursor: pointer;
+        }
+
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom:90px;
+            right:30px;
+            z-index: 99;
+            font-size: 20px;
+            border: 1px solid #E0E0E0;
+            font-weight:bold;
+            background-color:white;
+            color: black;
+            cursor: pointer;
+            padding: 2%;
+            border-radius: 4px;
+        }
+
+
+
+        .modal {
+            display: none; 
+            position: fixed; 
+            z-index: 1; 
+            padding-top: 100px; 
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%; 
+            overflow: auto; 
+            background-color: rgb(0,0,0); 
+            background-color: rgba(0,0,0,0.4); 
+        }
+        .modal-content {
+            position: relative;
+            background-color: #fefefe;
+            margin: auto;
+            padding: 0;
+            border: 1px solid #888;
+            width: 50%;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+            -webkit-animation-name: animatetop;
+            -webkit-animation-duration: 0.4s;
+            animation-name: animatetop;
+            animation-duration: 0.4s
+        }
+        @-webkit-keyframes animatetop {
+            from {top:-300px; opacity:0} 
+            to {top:0; opacity:1}
+        }
+        @keyframes animatetop {
+        from {top:-300px; opacity:0}
+        to {top:0; opacity:1}
+        }
     </style>
 </head>
-
 <body>
-    
     <div id="myModal" class="modal">
         <div class="modal-content">
             <div id="firstline">
@@ -157,210 +604,184 @@
                 </div>
             </div>
         </div>
-
-
-
-
-    <div id ="container">
-        <div>
-           <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/a/c/achwsivc466_1_a6c9da54.jpg?rnd=20200526195200"/>
-           <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/i/n/ind158-pnk_1_3dc181e4.jpg?rnd=20200526195200"/>
-        </div>
-        <div>
-                <h2>Woman</h2>
-                <p>new brand, standouts styles,<P>current favorite & more</p>
-        </div>
-        <div>
-            <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/a/h/ahtufrgfe19523_1_e0416277.jpg?rnd=20200526195200"/>
-            <img src = "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/r/t/rtor0011_1_67335460.jpg?rnd=20200526195200"/>
-        </div>
-    </div>
-    <div class="body">
-            <div id="slide-heading">
-                <div id="slide-heading-div1"></div>
-                <h2>WOMEN</h2>
-                <div id="slide-heading-div2"></div>
-                <div id="slide-heading-div3">
-                    <h4>Sort by</h4>
-                    <p>Popularity</p>
-                </div>
-                <div id="slide-heading-div4"></div>
-            </div>
-        <div class="cont">
-            <div class="filters">
-                <h2 style="font-weight: 600;">Filters</h2>
-                <div class="filterbox" id="gender">
-                    <h2>Occassion</h2>
-                    <div><div><label>Casual</label></div><div><input type="checkbox" id="Occassion-casual"></div></div>
-                    <div><div><label>Festive</label></div><div><input type="checkbox" id="Occassion-festive"></div></div>
-                    <div><div><label>Party</label></div><div><input type="checkbox" id="Occassion-party"></div></div>
-                    <div><div><label>Formal</label></div><div><input type="checkbox" id="Occassion-formal"></div></div>
-                    <div><div><label>Work Out</label></div><div><input type="checkbox" id="Occassion-workout"></div></div>
-                    <div><div><label>Travel</label></div><div><input type="checkbox" id="Occassion-travel"></div></div>
-                    <div><div><label>Sport</label></div><div><input type="checkbox" id="Occassion-sport"></div></div>
-                </div>
-                <div class="filterbox" id="Brand">
-                    <h2>Brands</h2>
-                    <div><div><label>Gap</label></div><div><input type="checkbox" id="brand-gap"></div></div>
-                    <div><div><label>Bady Moo</label></div><div><input type="checkbox" id="brand-baby-moo"></div></div>
-                    <div><div><label>Kanitroot</label></div><div><input type="checkbox" id="brand-kanitroot"></div></div>
-                    <div><div><label>Bee bay</label></div><div><input type="checkbox" id="brand-beebay"></div></div>
-                    <div><div><label>Pepe Jeans</label></div><div><input type="checkbox" id="brand-pepe-jeans"></div></div>
-                    <div><div><label>Puma</label></div><div><input type="checkbox" id="brand-puma"></div></div>
-                </div>
-                <div class="filterbox" id="Size">
-                    <h2>Sizes</h2>
-                    <div><div><label>XXS</label></div><div><input type="checkbox" id="brand-xxs"></div></div>
-                    <div><div><label>XS</label></div><div><input type="checkbox" id="brand-baby-xs"></div></div>
-                    <div><div><label>S</label></div><div><input type="checkbox" id="brand-s"></div></div>
-                    <div><div><label>M</label></div><div><input type="checkbox" id="brand-m"></div></div>
-                    <div><div><label>L</label></div><div><input type="checkbox" id="brand-l"></div></div>
-                    <div><div><label>XL</label></div><div><input type="checkbox" id="brand-xl"></div></div>
-                </div>
-                <div id="priceslider">
-                    <h2>Prices</h2>
-                    <div>
-                     <div>From<input type="text" name="" id="slidermin"></div>
-                     <div>To<input type="text" name="" id="slidermax"></div>
-                    </div>
-                    <button id="sliderapply">Apply</button>
-                </div>
-            </div>
-            <div id="products"></div>
-        </div>
-    </div>
-    <div id="blackportion">
-        <div id="black1">
-            <h5>DOWNLOAD OUR APP</h5>
-            <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:h-66,/pub/media/wysiwyg/homepagemiddle/googlePlay.png" width="100%"/></div>
-            <div><img src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:h-66,/pub/media/wysiwyg/homepagemiddle/appleStore.png" width="100%"/></div>
-        </div>
-        <div id="black2">
-            <h5>SUBSCRIBE TO NEWSLETTER</h5>
-            <div id="search-container">
-            <form>
-                <input type="text" placeholder="enter your email" name="search">
-                <button type="submit">Submit</button>
-            </form>
-            </div>
-        </div>
-        <div id="black3">
-            <h5>FOR QUERIES</h5>
-            <p>18002663333 | support@nykaafashion.com<br>
-               (Monday to Saturday, 10AM - 7PM)</p>
-        </div>
-    </div>
-    <div id="grayportion">
-        <div id="insidegray">
-            <div class="inside1">
-                <div class="title">WHO ARE WE</div>
-                <div>About Us</div>
-                <div>Careers</div>
-                <div>Press</div>
-            </div>
-            <div class="inside1">
-                <div class="title">HELP</div>
-                <div>Shipping & Return Policy</div>
-                <div>Help Center</div>
-                <div>Terms & Conditions</div>
-            </div>
-            <div class="inside1">
-                <div id="empty"></div>
-                <div>Privacy Policy</div>
-                <div>Privacy Policy for EU Residents</div>
-                <div> Responsible Disclosure</div>
-            </div>
-            <div class="inside1">
-                <div class="title">QUICKLINKS</div>
-                <div>Offers </div>
-                <div>Sitemap</div>
-            </div>
-            <div class="inside1">
-                <div class="title">FOLLOW US</div>
-                <div id="logo">
-                    <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/homepagemiddle/icons-instagram-footer.svg"/>
-                    <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/wysiwyg/homepagemiddle/icons-facebook-footer.svg"/>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="aftergray">
-        <div id="insideaftergray">
-            <div class="inside1">
-                <div class="women">WOMEN</div>
-                <div>Indianwear</div>
-                <div>Westernwear</div>
-                <div>Bags</div>
-                <div>Footwear</div>
-                <div>Lingerie</div>
-                <div>Jewellery</div>
-                <div>Accessories</div>
-                <div>Watches</div>
-                <div>Sportswear</div>
-            </div>
-            <div class="inside1">
-                <div class="women">MEN</div>
-                <div>Topwear</div>
-                <div>Bottomwear</div>
-                <div>Footwear</div>
-                <div>Personal Accessories</div>
-                <div>Ethnic Wear</div>
-                <div>Innerwear</div>
-                <div>Watches</div>
-                <div>Sportswear</div>
-                <div>Bags and Backpacks</div>
-            </div>
-            <div class="inside1">
-                <div class="women">KIDS</div>
-                <div>Westernwear</div>
-                <div>Indianwear</div>
-                <div>Footwear</div>
-                <div>Accessories</div>
-                <div>Toys and Games</div>
-                <div>Sportswear</div>
-                <div>Feeding</div>
-                <div>Home</div>
-                <div>Innerwear</div>
-            </div>
-            <div class="inside1">
-                <div class="women">LUXE</div>
-                <div>Separates</div>
-                <div>Sarees</div>
-                <div>Dresses</div>
-                <div>Kurta Sets</div>
-                <div>Lehengas</div>
-                <div>Jewellery</div>
-                <div>Bags</div>
-                <div>Masks</div>
-            </div>
-            <div class="inside1">
-                <div class="women">TOP BRANDS</div>
-                <div>Aachho</div>
-                <div>Forever New</div>
-                <div>Biba</div>
-                <div>Reebok</div>
-                <div>Adidas</div>
-                <div>Lavanya the Label</div>
-                <div>Forever 21</div>
-                <div>Gap</div>
-                <div>W</div>
-                <div>Puma</div>
-            </div>
-            <div class="inside1">
-                <div class="women">HOUSE OF NYKAA</div>
-                <div>20 Dresses by Nykaa Fashion</div>
-                <div>Mondano by Nykaa Fashion</div>
-                <div>RSVP by Nykaa Fashion</div>
-                <div>Likha by Nykaa Fashion</div>
-                <div>Nykd by Nykaa</div>
-                <div>Pipa Bella</div>
-            </div>
-        </div>
-    </div>
-    <div id="lastbox">
-        © 2019 - 2021 Nykaa Fashion Pvt. Ltd. All Rights Reserved
-    </div>
 </body>
+<script>
+    function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");  
+  }
+ 
+/*For cart sidebar*/
+  function openNav() {                                              
+  document.getElementById("mySidebar").style.width = "370px";        
+  }
+  function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  }
+
+  
+  /*button which will take to top*/
+  var mybutton = document.getElementById("myBtn");                  
+  window.onscroll = function() 
+  {scrollFunction()
+  };
+  function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)
+   {
+           mybutton.style.display = "block";
+   }      
+  else
+  {
+           mybutton.style.display = "none";
+  }
+  }
+ function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+  }
+
+
+ /*Modal Login box*/
+  var modal = document.getElementById("myModal");
+var btn = document.getElementById("myButton");
+
+var span = document.getElementsByClassName("close")[0];
+ 
+btn.onclick = function() {
+  modal.style.display = "block";
+  document.getElementById("myDropdown").classList.remove("show");
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+/*Inside Modal Login box after Signup mobile number*/
+var modal2 = document.getElementById("myModal2");
+var btn2 = document.getElementById("insideButton");
+
+var span2 = document.getElementsByClassName("close2")[0];
+ 
+btn2.onclick = function() {
+  modal2.style.display = "block";
+  modal.style.display = "none";
+}
+
+span2.onclick = function() {
+  modal2.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+  }
+}
+
+
+/*Number Validation   and Login box*/
+let num = document.getElementById("redbox")
+
+var modal3 = document.getElementById("myModal3");
+var btn3 = document.getElementById("submitnumber");
+
+var span3 = document.getElementsByClassName("close3")[0];
+ 
+btn3.onclick = function() {
+  let x = document.getElementById("num").value;
+  if (x.length < 10 || x.length>10) {
+    num.innerHTML = "Invalid Number";
+    return false;
+  }
+  else if(x.length == 10){
+    document.getElementById("num").value = "null";
+    num.innerHTML = null;
+    modal2.style.display = "none";
+    modal3.style.display = "block";
+  }
+ 
+}
+
+span3.onclick = function() {
+  modal3.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal3) {
+    modal3.style.display = "none";
+  }
+}
+
+
+// Cart Product showing starts from here.
+//<div class="closebtn" onclick="closeNav()">←</div>
+let CartTotal=0;
+function CartShowing(){
+  let cartData=JSON.parse(localStorage.getItem("nykaa-cart"));
+  let cartParent=document.getElementById("mySidebar");
+  if(cartData !=null){
+    cartParent.innerHTML=null;
+    let closebtn=document.createElement("div");
+    closebtn.setAttribute("class","closebtn");
+    closebtn.textContent="←";
+    closebtn.addEventListener("click",closeNav);
+    cartParent.appendChild(closebtn);
+    let d=document.createElement("div");
+    d.textContent="Bag";
+    cartParent.appendChild(d)
+
+    let main=document.createElement("main");
+    cartProductShowing(cartData,main);
+    cartParent.appendChild(main);
+
+    let footer=document.createElement("footer");
+    let totalDiv=document.createElement("p");
+    totalDiv.textContent="$ "+CartTotal;
+    footer.appendChild(totalDiv);
+    let footerBtn=document.createElement("button");
+    footerBtn.textContent="Proceed to Buy"
+    footerBtn.addEventListener("click",LoadPayment)
+    footer.appendChild(footerBtn);
+    cartParent.appendChild(footer);
+  }
+}
+CartShowing()
+function cartProductShowing(arr,parent){
+ arr.forEach(element => {
+   CartTotal=CartTotal+Number(element.price)
+   let productDiv=document.createElement("div");
+   productDiv.setAttribute("class","productDiv");
+
+
+   let productDivImg=document.createElement("div");
+   productDivImg.setAttribute("class","productDivImg");
+   productDivImg.style.background=`url(${element.img})`;
+   productDivImg.style.backgroundSize="cover"
+   productDiv.appendChild(productDivImg);
+
+   let productDivText=document.createElement("div");
+   productDivText.setAttribute("class","productDivText");
+   let productDivTextBrand=document.createElement("p");
+   productDivTextBrand.textContent=element.brand;
+   productDivText.appendChild(productDivTextBrand);
+   let productDivTextName=document.createElement("p");
+   productDivTextName.textContent=element.name;
+   productDivText.appendChild(productDivTextName);
+   let productDivTextPrice=document.createElement("p");
+   productDivTextPrice.textContent="$ "+element.price;
+   productDivText.appendChild(productDivTextPrice);
+   productDiv.appendChild(productDivText);
+
+   parent.appendChild(productDiv);
+ });
+}
+
+function LoadPayment(){
+  window.location.href="../Payment Page/Payment.html"
+}
+</script>
 </html>
-<script src="woman.js"></script>
-<script src="./woman2.js"></script>
