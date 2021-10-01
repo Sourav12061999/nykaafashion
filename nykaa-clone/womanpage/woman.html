@@ -107,11 +107,14 @@
             <div class="filters">
                 <h2 style="font-weight: 600;">Filters</h2>
                 <div class="filterbox" id="gender">
-                    <h2>Gender</h2>
-                    <div><div><label>Boys</label></div><div><input type="checkbox" id="gender-boy"></div></div>
-                    <div><div><label>Girls</label></div><div><input type="checkbox" id="gender-girl"></div></div>
-                    <div><div><label>Male</label></div><div><input type="checkbox" id="gender-male"></div></div>
-                    <div><div><label>Female</label></div><div><input type="checkbox" id="gender-female"></div></div>
+                    <h2>Occassion</h2>
+                    <div><div><label>Casual</label></div><div><input type="checkbox" id="Occassion-casual"></div></div>
+                    <div><div><label>Festive</label></div><div><input type="checkbox" id="Occassion-festive"></div></div>
+                    <div><div><label>Party</label></div><div><input type="checkbox" id="Occassion-party"></div></div>
+                    <div><div><label>Formal</label></div><div><input type="checkbox" id="Occassion-formal"></div></div>
+                    <div><div><label>Work Out</label></div><div><input type="checkbox" id="Occassion-workout"></div></div>
+                    <div><div><label>Travel</label></div><div><input type="checkbox" id="Occassion-travel"></div></div>
+                    <div><div><label>Sport</label></div><div><input type="checkbox" id="Occassion-sport"></div></div>
                 </div>
                 <div class="filterbox" id="Brand">
                     <h2>Brands</h2>
@@ -134,10 +137,10 @@
                 <div id="priceslider">
                     <h2>Prices</h2>
                     <div>
-                     <div>From<input type="number" name="" id="slidermin"></div>
-                     <div>To<input type="number" name="" id="slidermin"></div>
+                     <div>From<input type="text" name="" id="slidermin"></div>
+                     <div>To<input type="text" name="" id="slidermax"></div>
                     </div>
-                    <button>Apply</button>
+                    <button id="sliderapply">Apply</button>
                 </div>
             </div>
             <div id="products"></div>
