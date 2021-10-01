@@ -52,3 +52,44 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+/*Inside Modal Login box after Signup mobile number*/
+var modal2 = document.getElementById("myModal2");
+var btn2 = document.getElementById("insideButton");
+
+var span2 = document.getElementsByClassName("close2")[0];
+ 
+btn2.onclick = function() {
+  modal2.style.display = "block";
+  modal.style.display = "none";
+}
+
+span2.onclick = function() {
+  modal2.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+  }
+}
+
+
+
+
+/*Number Validation*/
+let num = document.getElementById("redbox")
+
+function validation() {
+  let x = document.getElementById("num").value;
+  if (x.length < 10 || x.length>10) {
+    num.innerHTML = "Invalid Number";
+    return false;
+  }
+  else if(x.length == 10){
+    document.getElementById("num").value = "null";
+    num.innerHTML = null;
+    alert("Login Succesful");
+    modal2.style.display = "none";
+  }
+}

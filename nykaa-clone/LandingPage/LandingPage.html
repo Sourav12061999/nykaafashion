@@ -550,9 +550,81 @@
         #rightbottom > button:hover{
             background-color: #E0E0E0;
         }
+
+        /*inside modal box after clicking signup*/
+        #firstline2{
+            display: grid;
+            grid-template-columns: 50% 18%;
+            grid-gap:33%;
+        }
+        #lefttop2{
+            color: black;
+            font-size: large;
+            padding-left: 10%;
+        }
+        #lefttop2 > div{
+            cursor: pointer;
+            padding-top: 12%;
+            width:8%;
+        }
+        #inputnumber{
+            display:grid;
+            grid-template-columns: 7% 40%;
+            margin-left: 6%;
+            margin-top:3%;
+            
+        }
+        #inputnumber > div{
+            background-color: #E0E0E0;
+            color: rgb(92, 104, 116);
+            padding-top:26%;
+            letter-spacing: 0.25px;
+            text-align: right;
+            border-bottom: 1px solid black;
+        }
+        #inputnumber > input {
+            outline: none;
+            border: none;
+            background-color: #E0E0E0;
+            color: rgb(92, 104, 116);
+            padding:5%;
+            letter-spacing: 0.25px;
+            border-bottom: 1px solid black;
+        }
+        #enter{
+            font: 400 1.1429rem / 1.5 Cera, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            letter-spacing: 0.25px;
+            color: rgb(20, 37, 54);
+            margin-left: 6%;
+            margin-top:2%;
+        }
+        #submitnumber{
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 5%;
+            margin-left: 6%;
+            padding:2%;
+            width:44%;
+            margin-bottom: 5%;
+        }
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        #redbox{
+            margin-left:6%;
+            margin-top: 1%;
+            color:red;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
+
+    
 <div id="myModal" class="modal">
 
     <div class="modal-content">
@@ -568,7 +640,7 @@
         <div id="secondline">
             <div id="leftbottom">
                 <div>If you are new to Nykaa Fashion, kindly signup to proceed</div>
-                <button>Signup using mobile number   →</button>
+                <button id="insideButton">Signup using mobile number   →</button>
                 <div>By signing in, I agree to <u>Terms & Conditions</u>, and <u>Privacy Policy</u></div>
             </div>
             <div id="midbottom">
@@ -586,6 +658,31 @@
   
 </div>
    
+<div id="myModal2" class="modal">
+
+    <div class="modal-content">
+        <div id="firstline2">
+            <div id="lefttop2">
+                <div class="close2">✕</div>
+                <h2>Signup using mobile</h2>
+            </div>
+            <div id="righttop2">
+                <img src="https://images-static.nykaa.com/nykdesignstudio-images/pub/media/mobileVerification_background_image.png"/>
+            </div>
+        </div>
+        <div id="enter">Please enter your mobile number</div>
+        <div id="inputnumber">
+            <div>+91</div>
+            <input type="number" placeholder="xxx-xxx-xxxx" id="num" onclick="check()"/>
+        </div>
+        <div id="redbox"></div>
+        <input type="submit" id="submitnumber" onclick="validation()"/>
+    </div>
+  
+</div>
+
+
+
 
 
     <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
