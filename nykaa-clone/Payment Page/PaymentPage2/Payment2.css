@@ -156,3 +156,51 @@ input:focus{
 .prices >div div:nth-child(2){
     text-align: right;
 }
+.window{
+    width: 500px;
+    height: 200px;
+    /* border: 1px solid black; */
+    text-align: center;
+    background:linear-gradient( #F8BBD0,#FCE4EC);
+    padding: 25px;
+    z-index: 100;
+    margin: auto;
+    position: absolute;
+    bottom: 40%;
+    animation-name: windowanim;
+    animation-duration: 1s;
+    left: 30%;
+    display: none;
+}
+.window h2{
+ color: white;
+ margin-bottom: 25px;
+}
+.window button{
+    width: 60%;
+    height: 40px;
+    display: block;
+    margin: auto;
+    background-color: black;
+    border: none;
+    font-size: 18px;
+    color: white;
+}
+#close{
+    text-align: left;
+    font-size: large;
+    margin-bottom: 10px;
+}
+#close:hover{
+    cursor: pointer;
+}
+@keyframes windowanim {
+    from {bottom: 70%;}
+    to {bottom: 40%;}
+  }
+  input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  button:hover{
+      cursor: pointer;
+  }

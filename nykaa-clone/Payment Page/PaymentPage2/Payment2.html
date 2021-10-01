@@ -41,17 +41,17 @@
             <div class="details">
              <div id="details-card">
               <h3>Credit/Debit Card</h3>
-              <input placeholder="Card Number" type="text">
-              <div><input placeholder="Expiry Date" type="text"><input placeholder="CVV" type="text"></div>
+              <input id="card-number" placeholder="Card Number" type="number">
+              <div><input id="card-expiry" placeholder="Expiry Date" type="number"><input id="card-cvv" placeholder="CVV" type="number"></div>
               
             </div>
             <div id="details-upi">
                 <h3>UPI</h3>
-                <input placeholder="Enter Your UPI ID" type="text">
+                <input id="upi" placeholder="Enter Your UPI ID" type="text">
               </div>
               <div id="details-google">
                 <h3>GOOGLE PAY</h3>
-                <input placeholder="Google Pay Number" type="text">
+                <input id="gpay" placeholder="Google Pay Number" type="number">
               </div>
               <div id="details-cash">
                 <h3>CASH ON DELIVERY</h3>
@@ -70,6 +70,11 @@
             </div>
         </div>
     </main>
+    <div class="window">
+        <div id="close">✕</div>
+        <h2>You have sucessfully made the payment</h2>
+        <button id="shopagain">Continue with your shoping</button>
+    </div>
 </body>
 <script src="./Payment2.js"></script>
 </html>

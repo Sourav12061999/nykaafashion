@@ -4,6 +4,16 @@ let detailGpay=document.getElementById("details-google");
 let detailCash=document.getElementById("details-cash");
 
 let payBtn=document.getElementById("payBtn");
+let paymentOption=0;
+
+let Paymentdone=false;
+
+let cardNumber=document.getElementById("card-number");//
+let cardExpiry=document.getElementById("card-expiry");
+let cardCvv=document.getElementById("card-cvv");
+let gPay=document.getElementById("gpay");
+let upi=document.getElementById("upi");
+let okwindow=document.querySelector(".window");
 
 let p=[document.getElementById("p1"),document.getElementById("p2"),
 document.getElementById("p3"),document.getElementById("p4"),document.getElementById("p5")]
@@ -20,7 +30,8 @@ detailCardBtn.addEventListener("click",function(){
   detailUPI.style.display="none";
   detailGpay.style.display="none";
   detailCash.style.display="none";
-  payBtn.textContent=`Pay $ ${totalPrice} Now`
+  payBtn.textContent=`Pay $ ${totalPrice} Now`;
+  paymentOption=0;
 })
 
 let detailUPIBtn=document.getElementById("methods2");
@@ -30,6 +41,7 @@ detailUPIBtn.addEventListener("click",function(){
   detailGpay.style.display="none";
   detailCash.style.display="none";
   payBtn.textContent=`Pay $ ${totalPrice} Now`;
+  paymentOption=1;
 })
 
 let detailGpayBtn=document.getElementById("methods3");
@@ -39,6 +51,7 @@ detailGpayBtn.addEventListener("click",function(){
   detailGpay.style.display="block";
   detailCash.style.display="none";
   payBtn.textContent=`Pay $ ${totalPrice} Now`;
+  paymentOption=2;
 })
 
 let detailCashBtn=document.getElementById("methods4");
@@ -47,7 +60,9 @@ detailCashBtn.addEventListener("click",function(){
   detailUPI.style.display="none";
   detailGpay.style.display="none";
   detailCash.style.display="block";
-  payBtn.textContent=`Pay $ ${totalPrice} After Delivery In Cash`
+  payBtn.textContent=`Pay $ ${totalPrice} After Delivery In Cash`;
+  paymentOption=3;
+  console.log(paymentOption);
 })
 
 function CartTotal(){
@@ -65,4 +80,54 @@ function CartTotal(){
     p[4].textContent="$ "+(totalPrice+50);
   }
   
+}
+
+function PaymentDone(param=0){
+  if(param==0){
+    if(cardNumber.value != null && cardNumber.value !="" && cardExpiry.value != null && cardExpiry.value !="" && cardCvv.value != null && cardCvv.value !=""){
+      okwindow.style.display="block";
+      Paymentdone=true;
+      paid()
+    }
+  }else if(param==2){
+    if(gPay.value !=null && gPay.value !=""){
+      okwindow.style.display="block";
+      Paymentdone=true;
+      paid()
+      
+    }
+  }else if(param==1){
+    console.log(gpay.value);
+    if(upi.value !=null && upi.value !=""){
+      okwindow.style.display="block";
+      Paymentdone=true;
+      paid()
+    }
+  }else if(param==3){
+    okwindow.style.display="block";
+    Paymentdone=true;
+    paid()
+  }
+  
+}
+
+payBtn.addEventListener("click",function(){PaymentDone(paymentOption)})
+
+let close=document.getElementById("close");
+let shopagain=document.getElementById("shopagain");
+
+close.addEventListener("click",function(){
+  okwindow.style.display="none"
+})
+shopagain.addEventListener("click",function(){
+  window.location.href="../../LandingPage/LandingPage.html";
+})
+function paid(){
+if(Paymentdone==true){
+  let main=document.querySelector("main");
+  main.innerHTML=null;
+  let delivered=document.createElement("img");
+  delivered.src="./delivery3.jpg";
+  main.appendChild(delivered)
+}
 }
