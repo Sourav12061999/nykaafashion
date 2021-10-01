@@ -1,20 +1,20 @@
 let TechProductData=[
-    {brand:"Zebronics",img:"./images/img1.jpg", gender:"Male",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Laptop",Extra:[]},
-    {brand:"Zebronics",img:"./images/img2.jpg", gender:"Female",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Mobile",Extra:[]},
-    {brand:"Zebronics",img:"./images/img3.jpg", gender:"Male",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Head Phones",Extra:[]},
-    {brand:"Zebronics",img:"./images/img4.jpg", gender:"Female",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Speakers",Extra:[]},
-    {brand:"Zebronics",img:"./images/img5.jpg", gender:"Male",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Smart TV",Extra:[]},
-    {brand:"Apple",img:"./images/img1.jpg", gender:"Female",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Laptop",Extra:[]},
-    {brand:"Apple",img:"./images/img2.jpg", gender:"Male",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Mobile",Extra:[]},
-    {brand:"Apple",img:"./images/img3.jpg", gender:"Female",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"LaptopHead Phones",Extra:[]},
-    {brand:"Apple",img:"./images/img4.jpg", gender:"Male",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Speakers",Extra:[]},
-    {brand:"Apple",img:"./images/img5.jpg", gender:"Female",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Smart TV",Extra:[]},
-    {brand:"HP",img:"./images/img1.jpg", gender:"Male",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Laptop",Extra:[]},
-    {brand:"HP",img:"./images/img1.jpg", gender:"Female",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Mobile",Extra:[]},
-    {brand:"HP",img:"./images/img1.jpg", gender:"Male",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Head Phones",Extra:[]},
-    {brand:"HP",img:"./images/img1.jpg", gender:"Female",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Speakers",Extra:[]},
-    {brand:"HP",img:"./images/img1.jpg", gender:"Male",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Smart TV",Extra:[]},
-    {brand:"Dell",img:"./images/img1.jpg", gender:"Female",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Laptop",Extra:[]},
+    {brand:"Zebronics",img:"https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/n/y/nyfboat000113_1_cc965b26.jpg?rnd=20200526195200", gender:"Male",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Laptop",Extra:[]},
+    {brand:"Zebronics",img:"https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/n/y/nyfblta000011_1.jpg?rnd=20200526195200", gender:"Female",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Mobile",Extra:[]},
+    {brand:"Zebronics",img:"https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/b/c/bc60a_1_c82d81cb.jpg?rnd=20200526195200", gender:"Male",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Head Phones",Extra:[]},
+    {brand:"Zebronics",img:"https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/6/1/619660798426_1_727221ba.jpg?rnd=20200526195200", gender:"Female",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Speakers",Extra:[]},
+    {brand:"Zebronics",img:"https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/c/_/c_8907605107849_1_655fcbdf.jpg?rnd=20200526195200", gender:"Male",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Smart TV",Extra:[]},
+    {brand:"Apple",img:"https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/c/o/cor-nyfcrca000039_1_369033fe.jpg?rnd=20200526195200", gender:"Female",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Laptop",Extra:[]},
+    {brand:"Apple",img:"https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/a/m/ambrane_8904258106557_1_aff3c266.jpg?rnd=20200526195200", gender:"Male",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Mobile",Extra:[]},
+    {brand:"Apple",img:"https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/n/y/nyfblta000009_1.jpg?rnd=20200526195200", gender:"Female",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"LaptopHead Phones",Extra:[]},
+    {brand:"Apple",img:"https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/z/b/zb_8906108615899_1_44867a4c.jpg?rnd=20200526195200", gender:"Male",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Speakers",Extra:[]},
+    {brand:"Apple",img:"https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/u/d/ud_bk_1_2f275806.jpg?rnd=20200526195200", gender:"Female",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Smart TV",Extra:[]},
+    {brand:"HP",img:"https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/g/r/grey_1_398b5873.jpg?rnd=20200526195200", gender:"Male",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Laptop",Extra:[]},
+    {brand:"HP",img:"https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/b/o/boult-audio-ba-nk-freepods-black_1_17c2dc71.jpg?rnd=20200526195200", gender:"Female",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Mobile",Extra:[]},
+    {brand:"HP",img:"https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/d/i/dive_green_1.jpg?rnd=20200526195200", gender:"Male",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Head Phones",Extra:[]},
+    {brand:"HP",img:"https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/p/e/pebble-8906086572115_1_34a9b9fd.jpg?rnd=20200526195200", gender:"Female",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Speakers",Extra:[]},
+    {brand:"HP",img:"https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/p/p/pportronics-por-1195_1_e9dc8e9f.jpg?rnd=20200526195200", gender:"Male",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Smart TV",Extra:[]},
+    {brand:"Dell",img:"https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/m/u/musebud_grey.jpg?rnd=20200526195200", gender:"Female",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Laptop",Extra:[]},
     {brand:"Dell",img:"./images/img1.jpg", gender:"Male",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Mobile",Extra:[]},
     {brand:"Dell",img:"./images/img1.jpg", gender:"Female",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Head Phones",Extra:[]},
     {brand:"Dell",img:"./images/img1.jpg", gender:"Male",price:100,detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sequi.",catagory:"Speakers",Extra:[]},
@@ -40,7 +40,7 @@ function ShowProducts(data){
 
         let img=document.createElement("div");
         img.setAttribute("class", "card-img");
-        img.style.backgroundImage=`url(https://source.unsplash.com/1600x900/?nature,water)`
+        img.style.backgroundImage=`url(${element.img})`
         card.appendChild(img);
 
         let text=document.createElement("div");
@@ -63,18 +63,3 @@ function ShowProducts(data){
     products.style.height=`${count/3*450}px`
 }
 ShowProducts(TechProductData);
-function woman(){
-    window.location.href="womanpage/woman.html";
-  }
-  function men(){
-    window.location.href="menpage/men.html";
-  }
-  function kids(){
-    window.location.href="Kidspage/Kids.html";
-  }
-  function home(){
-    window.location.href="Homepage/Home.html";
-  }
-  function tech(){
-    window.location.href="Tech page/Tech.html";
-  }

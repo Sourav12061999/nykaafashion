@@ -206,6 +206,7 @@ if(localStorage.getItem("nykaa-product")==null){
 let parent = document.getElementById("products");
 
 function ShowProducts(data) {
+
   data.forEach(element => {
     let card = document.createElement("div");
     card.setAttribute("class", "card");
