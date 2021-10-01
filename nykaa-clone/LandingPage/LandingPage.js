@@ -1,18 +1,19 @@
+/*For drop box*/
 function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
+    document.getElementById("myDropdown").classList.toggle("show");  
   }
  
-
-  function openNav() {
-  document.getElementById("mySidebar").style.width = "370px";
+/*For cart sidebar*/
+  function openNav() {                                              
+  document.getElementById("mySidebar").style.width = "370px";        
   }
   function closeNav() {
   document.getElementById("mySidebar").style.width = "0";
   }
 
   
-  
-  var mybutton = document.getElementById("myBtn");
+  /*button which will take to top*/
+  var mybutton = document.getElementById("myBtn");                  
   window.onscroll = function() 
   {scrollFunction()
   };
@@ -75,12 +76,15 @@ window.onclick = function(event) {
 }
 
 
-
-
-/*Number Validation*/
+/*Number Validation   and Login box*/
 let num = document.getElementById("redbox")
 
-function validation() {
+var modal3 = document.getElementById("myModal3");
+var btn3 = document.getElementById("submitnumber");
+
+var span3 = document.getElementsByClassName("close3")[0];
+ 
+btn3.onclick = function() {
   let x = document.getElementById("num").value;
   if (x.length < 10 || x.length>10) {
     num.innerHTML = "Invalid Number";
@@ -89,7 +93,18 @@ function validation() {
   else if(x.length == 10){
     document.getElementById("num").value = "null";
     num.innerHTML = null;
-    alert("Login Succesful");
     modal2.style.display = "none";
+    modal3.style.display = "block";
+  }
+ 
+}
+
+span3.onclick = function() {
+  modal3.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal3) {
+    modal3.style.display = "none";
   }
 }
