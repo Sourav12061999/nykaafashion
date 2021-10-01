@@ -108,3 +108,15 @@ window.onclick = function(event) {
     modal3.style.display = "none";
   }
 }
+
+
+// Cart Product showing starts from here.
+
+function CartShowing(){
+  let cartData=JSON.parse(localStorage.getItem("nykaa-cart"));
+  let cartParent=document.getElementById("mySidebar")
+  if(cartData !=null){
+    
+  }
+}
+CartShowing()
