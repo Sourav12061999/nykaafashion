@@ -58,6 +58,7 @@ main{
     padding: 1%;
     border: 1px solid rgb(121, 121, 121);
     display: none;
+    margin-bottom: 5%;
 }
 #change-form-div{
     border: 1px so red;
@@ -128,6 +129,7 @@ main{
     width: 50%;
     height: 40px;
     font-size: 20px;
+    cursor: pointer;
 }
 #form-btn2{
     background-color: black;

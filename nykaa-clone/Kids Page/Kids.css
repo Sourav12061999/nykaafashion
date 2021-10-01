@@ -152,8 +152,8 @@ input:focus{
 
 
 #container{
-    border: 1px solid green;
-    height:200px;
+    
+    height:250px;
     width:90%;
     margin:auto;
     margin-top: 20px;
@@ -164,11 +164,11 @@ input:focus{
 }
 #container>div >img{
     width:45%;
-    height: 80%;
+    height: 99%;
     margin-left: 20%;
 }
 #container>div:nth-child(2){
-    margin-top: 50px;
+    margin-top: 90px;
     text-align: center;
     width:100%;
 }

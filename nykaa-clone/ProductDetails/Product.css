@@ -68,6 +68,7 @@
 }
 #main-product-data-btn:hover{
     cursor: pointer;
+    background-color: #424242;
 }
 .offerbox{
     width: 70%;

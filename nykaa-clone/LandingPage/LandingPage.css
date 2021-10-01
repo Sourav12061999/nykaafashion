@@ -60,4 +60,8 @@ main .productDiv{
     color: white;
     border: none;
     padding: 15px 29px;
+    cursor: pointer;
+}
+.sidebar footer >button:hover{
+    background-color: #424242;
 }
