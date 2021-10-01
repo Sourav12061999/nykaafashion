@@ -4,7 +4,7 @@ function myFunction() {
  
 
   function openNav() {
-  document.getElementById("mySidebar").style.width = "370px";
+  document.getElementById("mySidebar").style.width = "370px";//
   }
   function closeNav() {
   document.getElementById("mySidebar").style.width = "0";
@@ -93,3 +93,15 @@ function validation() {
     modal2.style.display = "none";
   }
 }
+
+
+// Cart Product showing starts from here.
+
+function CartShowing(){
+  let cartData=JSON.parse(localStorage.getItem("nykaa-cart"));
+  let cartParent=document.getElementById("mySidebar")
+  if(cartData !=null){
+    
+  }
+}
+CartShowing()
