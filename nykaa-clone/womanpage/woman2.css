@@ -457,6 +457,175 @@ cursor: pointer;
 from {top:-300px; opacity:0}
 to {top:0; opacity:1}
 }
+#firstline{
+    display: grid;
+    grid-template-columns: 50% 18%;
+    grid-gap:33%;
+}
+#lefttop{
+    color: black;
+    font-size: large;
+    padding-left: 10%;
+}
+#lefttop > div{
+    cursor: pointer;
+    padding-top: 12%;
+    width:8%;
+}
+h2{
+    padding-top: 6%;
+}
+#secondline{
+    display:grid;
+    grid-template-columns: 44% 6% 44%;
+}
+#leftbottom{
+    padding-left: 10%;
+    padding-bottom: 18%;
+}
+#leftbottom > div:nth-child(1){
+    font-size: 16px;
+}
+#leftbottom > button{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 9%;
+    padding:7%;
+}
+#leftbottom > button:hover{
+    background-color: #424242;
+}
+#leftbottom > div:nth-child(3){
+    padding-top: 7%;
+    font-size: 12px;
+    width:75%;
+}
+u{
+    cursor: pointer;
+}
+#midbottom{
+    margin-left: 3%;
+}
+#midbottom > div:nth-child(1){
+    border-left: 2px solid #BDBDBD;
+    margin-left: 3.5%;
+    height:34%;
+}
+#midbottom > div:nth-child(2){
+   margin-top: 1%;
+   margin-bottom: 1%;
+}
+#midbottom > div:nth-child(3){
+    border-left: 2px solid #BDBDBD;
+    margin-left: 3.5%;
+    height:34%;
+}
+#rightbottom{
+    padding-left: 10%;
+    padding-bottom: 18%;
+}
+#rightbottom > div:nth-child(1){
+    font-size: 16px;
+}
+#rightbottom > button{
+    background-color: white;
+    color: black;
+    border:1px solid #EEEEEE;
+    cursor: pointer;
+    margin-top: 9%;
+    padding:7%;
+}
+#rightbottom > button:nth-child(3){
+    width:81%;
+}
+#rightbottom > button:hover{
+    background-color: #E0E0E0;
+}
+
+/*inside modal box after clicking signup*/
+#firstline2{
+    display: grid;
+    grid-template-columns: 50% 18%;
+    grid-gap:33%;
+}
+#lefttop2{
+    color: black;
+    font-size: large;
+    padding-left: 10%;
+}
+#lefttop2 > div{
+    cursor: pointer;
+    padding-top: 12%;
+    width:8%;
+}
+#inputnumber{
+    display:grid;
+    grid-template-columns: 7% 40%;
+    margin-left: 6%;
+    margin-top:3%;
+    
+}
+#inputnumber > div{
+    background-color: #E0E0E0;
+    color: rgb(92, 104, 116);
+    padding-top:26%;
+    letter-spacing: 0.25px;
+    text-align: right;
+    border-bottom: 1px solid black;
+}
+#inputnumber > input {
+    outline: none;
+    border: none;
+    background-color: #E0E0E0;
+    color: rgb(92, 104, 116);
+    padding:5%;
+    letter-spacing: 0.25px;
+    border-bottom: 1px solid black;
+}
+#enter{
+    font: 400 1.1429rem / 1.5 Cera, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 0.25px;
+    color: rgb(20, 37, 54);
+    margin-left: 6%;
+    margin-top:2%;
+}
+#submitnumber{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-left: 6%;
+    padding:2%;
+    width:44%;
+    margin-bottom: 5%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+#redbox{
+    margin-left:6%;
+    margin-top: 1%;
+    color:red;
+    font-size: 14px;
+}
+.close3{
+    margin-left: 95%;
+    margin-top: 3%;
+    font-size: 20px;
+    cursor: pointer;
+}
+#login{
+    font-size: 35px;
+    color: green;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
 
 .sidebar main{
     width: 85%;
