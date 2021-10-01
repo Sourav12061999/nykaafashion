@@ -352,19 +352,19 @@
         cursor: pointer;
     }
 
-    .sidebar {
+    .sidebar{
         height: 100%;
         width: 0;
         position: fixed;
         z-index: 1;
         top: 0;
         right: 0;
-        background-color: white;
+        background-color: #F5F5F5;
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
         }
-    .sidebar div {
+    .sidebar >div{
         padding: 8px 8px 8px 32px;
         text-decoration: none;
         font-size: 30px;
@@ -380,12 +380,12 @@
         text-align: left;
         cursor: pointer;
         }
-        .sidebar > img{
+        .sidebar  > img{
             width:80%;
             margin-left: 10%;
             margin-top:7%;
         }
-        .sidebar > div:nth-child(4){
+        .sidebar  > div:nth-child(4){
             text-align: center;
             font-weight: lighter;
         }
@@ -621,6 +621,7 @@
             font-size: 14px;
         }
     </style>
+    <link rel="stylesheet" href="./LandingPage.css">
 </head>
 <body>
 
@@ -689,13 +690,12 @@
 
     <div id="mySidebar" class="sidebar">
         <div class="closebtn" onclick="closeNav()">←</div>
-        
         <div>Bag</div>
         <img src="https://www.nykaafashion.com/v2/checkout/static/media/empty-cart.78c27941.png"/>
         <div>Your shopping bag is empty!</div>
         <div>Looks like you haven’t added anything to your bag. Let’s change that.</div>
-    
         <button onclick="closeNav()" class="sidebarbutton">Back to shopping</button>
+        
     </div>
 
     <div id="navbar">

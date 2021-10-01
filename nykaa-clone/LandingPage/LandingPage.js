@@ -96,12 +96,68 @@ function validation() {
 
 
 // Cart Product showing starts from here.
-
+//<div class="closebtn" onclick="closeNav()">←</div>
+let CartTotal=0;
 function CartShowing(){
   let cartData=JSON.parse(localStorage.getItem("nykaa-cart"));
-  let cartParent=document.getElementById("mySidebar")
+  let cartParent=document.getElementById("mySidebar");
   if(cartData !=null){
-    
+    cartParent.innerHTML=null;
+    let closebtn=document.createElement("div");
+    closebtn.setAttribute("class","closebtn");
+    closebtn.textContent="←";
+    closebtn.addEventListener("click",closeNav);
+    cartParent.appendChild(closebtn);
+    let d=document.createElement("div");
+    d.textContent="Bag";
+    cartParent.appendChild(d)
+
+    let main=document.createElement("main");
+    cartProductShowing(cartData,main);
+    cartParent.appendChild(main);
+
+    let footer=document.createElement("footer");
+    let totalDiv=document.createElement("p");
+    totalDiv.textContent="$ "+CartTotal;
+    footer.appendChild(totalDiv);
+    let footerBtn=document.createElement("button");
+    footerBtn.textContent="Proceed to Buy"
+    footerBtn.addEventListener("click",LoadPayment)
+    footer.appendChild(footerBtn);
+    cartParent.appendChild(footer);
   }
 }
 CartShowing()
+function cartProductShowing(arr,parent){
+ arr.forEach(element => {
+   CartTotal=CartTotal+Number(element.price)
+   let productDiv=document.createElement("div");
+   productDiv.setAttribute("class","productDiv");
+
+
+   let productDivImg=document.createElement("div");
+   productDivImg.setAttribute("class","productDivImg");
+   productDivImg.style.background=`url(${element.img})`;
+   productDivImg.style.backgroundSize="cover"
+   productDiv.appendChild(productDivImg);
+
+   let productDivText=document.createElement("div");
+   productDivText.setAttribute("class","productDivText");
+   let productDivTextBrand=document.createElement("p");
+   productDivTextBrand.textContent=element.brand;
+   productDivText.appendChild(productDivTextBrand);
+   let productDivTextName=document.createElement("p");
+   productDivTextName.textContent=element.name;
+   productDivText.appendChild(productDivTextName);
+   let productDivTextPrice=document.createElement("p");
+   productDivTextPrice.textContent="$ "+element.price;
+   productDivText.appendChild(productDivTextPrice);
+   productDiv.appendChild(productDivText);
+
+   parent.appendChild(productDiv);
+ });
+}
+
+function LoadPayment(){
+  window.location.href="../Payment Page/Payment.html"
+}
