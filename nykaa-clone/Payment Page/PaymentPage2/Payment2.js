@@ -120,7 +120,7 @@ close.addEventListener("click",function(){
   okwindow.style.display="none"
 })
 shopagain.addEventListener("click",function(){
-  window.location.href="../../LandingPage/LandingPage.html";
+  window.location.href="../../LandingPage/index.html";
 })
 function paid(){
 if(Paymentdone==true){
