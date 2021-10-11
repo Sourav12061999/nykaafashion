@@ -8,7 +8,7 @@ function myFunction() {
   document.getElementById("mySidebar").style.width = "370px";        
   }
   function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
+             document.getElementById("mySidebar").style.width = "0";
   }
 
   
