@@ -5,9 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Page</title>
+    <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="./Product.css">
 </head>
 <body>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div id="firstline">
+            <div id="lefttop">
+                <div class="close">✕</div>
+                <h2>Login</h2>
+            </div>
+            <div id="righttop">
+                <img src="https://images-static.nykaa.com/nykdesignstudio-images/pub/media/mobileVerification_background_image.png"/>
+            </div>
+            </div>
+            <div id="secondline">
+                <div id="leftbottom">
+                    <div>If you are new to Nykaa Fashion, kindly signup to proceed</div>
+                    <button id="insideButton">Signup using mobile number   →</button>
+                    <div>By signing in, I agree to <u>Terms & Conditions</u>, and <u>Privacy Policy</u></div>
+                </div>
+                <div id="midbottom">
+                    <div></div>
+                    <div>Or</div>
+                    <div></div>
+                </div>
+                <div id="rightbottom">
+                    <div>If you are already registered with us, then choose from below:</div>
+                    <button>Login using mobile number   →</button>
+                    <button>Login using email   →</button>
+                </div>
+            </div>
+        </div>  
+    </div>
+    
+    <div id="myModal2" class="modal">    
+        <div class="modal-content">
+            <div id="firstline2">
+                <div id="lefttop2">
+                    <div class="close2">✕</div>
+                    <h2>Signup using mobile</h2>
+                </div>
+                <div id="righttop2">
+                    <img src="https://images-static.nykaa.com/nykdesignstudio-images/pub/media/mobileVerification_background_image.png"/>
+                </div>
+            </div>
+            <div id="enter">Please enter your mobile number</div>
+            <div id="inputnumber">
+                <div>+91</div>
+                <input type="number" placeholder="xxx-xxx-xxxx" id="num" />
+            </div>
+            <div id="redbox"></div>
+            <input type="submit" id="submitnumber" onclick="validation()"/>
+        </div>
+    </div>
+    
+    <!--Login box-->
+    <div id="myModal3" class="modal">    
+        <div class="modal-content">
+            <div class="close3">✕</div>
+            <div id="login">Login Succesful!!!</div>
+        </div>
+    </div>
+    
+    
+    <!--box to take to top from anywhere-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+    
+      
+      <!--cart side bar-->
+        <div id="mySidebar" class="sidebar">
+            <div class="closebtn" onclick="closeNav()">←</div>
+            <div>Bag</div>
+            <img src="https://www.nykaafashion.com/v2/checkout/static/media/empty-cart.78c27941.png"/>
+            <div>Your shopping bag is empty!</div>
+            <div>Looks like you haven’t added anything to your bag. Let’s change that.</div>
+            <button onclick="closeNav()" class="sidebarbutton">Back to shopping</button>
+        </div>
     <div id="cont">
         <div id="main-product">
             <div id="main-product-img">
@@ -195,4 +270,5 @@
     </div>
 </body>
 <script src="./Product.js"></script>
+<!-- <script src="../womanpage/woman2.js"></script> -->
 </html>
