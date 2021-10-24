@@ -2,7 +2,8 @@
 # Nykaa-fashion clone
 
 This is our first project at masai school construct week after learning HTML,CSS & JAVASCRIPT
-
+Here is the link of our app live on netlify
+https://keen-clarke-eefd2c.netlify.app/
 
 
 ## Contributors
