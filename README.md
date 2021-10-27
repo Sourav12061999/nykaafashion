@@ -22,6 +22,7 @@ The main Contributors for this project are
 
 - ### Home page:-
 This is the main landing page of our website. Here clicking on any option of the Navbar will redirect the user to the respective Product Page. Clicking on Account will display an animated popup box for login and sign up. Clicking on Cart will display a cart window where all the products added to cart will be shown.
+![Landing Page](https://miro.medium.com/max/1050/1*UFl6T_Oc9a4ZGKptbD7p2g.png)
 
 - ### Product Page(Women):-
  This is one of the product pages of our website. On the right side all the products with their respective name, brand, price will be shown. On the left side we have filters. There are many filters like filter by Brand, Occassion, Size, Price. All of this filters are fully functioning. Clicking on any product will redirect the user to the Product Details page of that product.
