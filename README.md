@@ -33,6 +33,7 @@ This is the main landing page of our website. Here clicking on any option of the
  ![Product Details](https://miro.medium.com/max/1050/1*WS7DzzDto8wi7huxwWTABQ.png)
   - ###  Cart Window:-
   Here all the products added to the cart will be shown. At the bottom there is total price of the cart and the proceed to buy button. Clicking on the button will redirect the user to the Payment Page .
+  
   ![cart](https://miro.medium.com/max/875/1*jBJkRpRw0VNdZ2eCphX_4A.png)
 
   - ###  Payment Page 1:-
