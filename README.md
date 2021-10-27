@@ -26,22 +26,24 @@ This is the main landing page of our website. Here clicking on any option of the
 
 - ### Product Page(Women):-
  This is one of the product pages of our website. On the right side all the products with their respective name, brand, price will be shown. On the left side we have filters. There are many filters like filter by Brand, Occassion, Size, Price. All of this filters are fully functioning. Clicking on any product will redirect the user to the Product Details page of that product.
+ ![Women](https://miro.medium.com/max/1050/1*nTLdxOHuju100o7Sjy3XrQ.png)
 
   - ### Product Details Page:-
   After clicking on any of the products this Product Details Page will be shown. Here the user can see every thing related to that product. Like the available sizes, delivery date checked by PINCODE. Also below the main product the user will see products from the same brands. Clicking on the Add To Bag Button will add this product to the cart.
-
+ ![Product Details](https://miro.medium.com/max/1050/1*WS7DzzDto8wi7huxwWTABQ.png)
   - ###  Cart Window:-
   Here all the products added to the cart will be shown. At the bottom there is total price of the cart and the proceed to buy button. Clicking on the button will redirect the user to the Payment Page .
+  ![cart](https://miro.medium.com/max/875/1*jBJkRpRw0VNdZ2eCphX_4A.png)
 
   - ###  Payment Page 1:-
   This is the first payment payment page of our webside. Here the user has to fill in his name, shipping details etc. After the user fills those details Saved Address & Edit Address options will be shown in place of Enter Your Address. A Proceed to buy button will show up in Price Summary. Clicking on that will redirect the user to the Payment Page 2.
-  
+  ![Payment1](https://miro.medium.com/max/1050/1*foSDqt3dmYvP5ZyLnuIijg.png)
   - ### Payment Page 2:-
    This is the second payment page where the user has to select a payment option. After the user has filled all the details and clicked on Pay Now button A pop up will show saying continue shopping.
-  
+  ![Payment2](https://miro.medium.com/max/1050/1*sNTkdNQsDXccFXO-jy3OCw.png)
    - ###  After Payment:-
    After the payment has been done a pop up and image will be shown. Clicking on this Continue with your shopping will redirect the user to the Landing Page.
-
+ ![After Payment](https://miro.medium.com/max/1050/1*wo5S8pUXCslcbKLDI2xTWw.png)
 
    ## Roles & Responsibilities:-
 
